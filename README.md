@@ -3,7 +3,7 @@
 
 豆包大牛制作
 
-🌐 在线访问：https://ljx-sketch.github.io/114514/
+🌐 在线访问：https://jx8a.github.io/114514/
 
 📦 包含链接：
 - 电脑版微信
