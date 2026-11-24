@@ -21,18 +21,7 @@ body{
     grid-template-columns: 1fr 1fr;
     gap:12px;
 }
-.item{
-    background:#ffffff;
-    padding:16px;
-    text-align:center;
-    border-radius:12px;
-    box-shadow:0 2px 8px #00000011;
-    min-height:60px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-.item-full{
+.item, .item-full{
     background:#ffffff;
     padding:16px;
     text-align:center;
@@ -51,16 +40,31 @@ a{
 a:active{
     color:#1d4ed8;
 }
+.title{
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+    color:#111827;
+}
+.sub-title{
+    text-align:center;
+    font-size:14px;
+    color:#6b7280;
+    margin-bottom:16px;
+    margin-top:4px;
+}
 </style>
 </head>
 <body>
 <div class="container">
-    <!-- 1. 本GitHub仓库（通栏） -->
+    <div class="title">软件导航</div>
+    <div class="sub-title">陈忆城是gay<!--这里填制作人-->
+    </div>
+
     <div class="item-full">
         <a href="https://github.com/jx8a/1" target="_blank">本GitHub仓库</a>
     </div>
 
-    <!-- 2. 电脑版微信下载 + 网页版微信（双列） -->
     <div class="row-two">
         <div class="item">
             <a href="https://weixin.qq.com/cgi-bin/readtemplate?t=win_weixin" target="_blank">电脑版微信下载</a>
@@ -70,22 +74,19 @@ a:active{
         </div>
     </div>
 
-    <!-- 3. 电脑版QQ下载（通栏） -->
     <div class="item-full">
         <a href="https://im.qq.com/pcqq/" target="_blank">电脑版QQ下载</a>
     </div>
 
-    <!-- 4. 抖音网页版（通栏） -->
-    <div class="item-full">
-        <a href="https://www.douyin.com" target="_blank">抖音网页版</a>
+    <div class="row-two">
+        <div class="item">
+            <a href="https://www.douyin.com" target="_blank">抖音网页版</a>
+        </div>
+        <div class="item">
+            <a href="https://www.kuaishou.com" target="_blank">快手网页版</a>
+        </div>
     </div>
 
-    <!-- 5. 快手网页版（通栏） -->
-    <div class="item-full">
-        <a href="https://www.kuaishou.com" target="_blank">快手网页版</a>
-    </div>
-
-    <!-- 6. B站电脑版下载 + B站网页版（双列） -->
     <div class="row-two">
         <div class="item">
             <a href="https://app.bilibili.com/" target="_blank">B站电脑版下载</a>
@@ -95,7 +96,6 @@ a:active{
         </div>
     </div>
 
-    <!-- 7. 豆包网页版 + 4399小游戏（双列） -->
     <div class="row-two">
         <div class="item">
             <a href="https://www.doubao.com/" target="_blank">豆包网页版</a>
@@ -105,7 +105,6 @@ a:active{
         </div>
     </div>
 
-    <!-- TM加速器 + Steam官网，放在最底部 -->
     <div class="row-two">
         <div class="item">
             <a href="https://www.tmjiasuqi.com/" target="_blank">TM加速器</a>
